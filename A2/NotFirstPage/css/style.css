@@ -1,0 +1,33 @@
+p {
+    display: inline-block;
+    width: 60ch;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+p:first-of-type {
+    color: #000;
+}
+
+h1,
+h2 {
+    color: rgb(233, 175, 15);    
+}
+
+.about-heading {
+    color: rgb(240, 17, 17)
+}
+
+.prof-text {
+    font-weight: 900;
+    color: rgb(201, 29, 29);
+}
+
+.name-text {
+    font-weight: bold;
+}
+
+.city-text {
+    font-style: italic;
+}
+

@@ -1,0 +1,82 @@
+body {
+    background-color: #F6F2F2;
+    margin: 0;
+}
+
+.header {
+    max-width: 90%;
+    margin: 0 5% 103px 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 90px;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #E0E0E0;
+    padding: 36px 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.header a:hover {
+    background-color: #FF3F40;
+}
+
+.header a:active {
+    text-shadow: 0 0 4px black;
+}
+
+.firstfloor {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.firstfloor-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 0;
+    position:relative
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.firstfloor-item p {
+    font-size: 16px;
+    width: 80%;
+    font-family: sans-serif;
+    margin-bottom: 78px;
+    margin-top: 35px;
+}
+
+.contact-button {
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#E0E0E0;
+    background-color: #FF2D2D;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.contact-button:active {
+    text-shadow: 0 0 10px black;
+}
+
+.firstfloor-img {
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 20px black;
+}
+
+
+
