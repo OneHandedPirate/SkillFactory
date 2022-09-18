@@ -810,8 +810,23 @@ h1 >span {
         padding-left: 0;
     }
     
+    .products_header {
+        padding-left: 0;
+    }
+    
     .products_links > a {
-        display:block
+        display:block;
+        right: 0
+    }
+
+    .feature {
+        justify-content: space-around;
+    }
+
+    .product {
+        width: 45vw;
+        height: 43vw;
+        margin-bottom: 2vw;
     }
 
     /* Уменьшаем отступы между секциями */
