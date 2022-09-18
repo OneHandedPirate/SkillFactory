@@ -92,7 +92,7 @@ h1 {
     align-items: flex-start;
     max-width: 1249px;
     margin: 0 auto;
-    padding: 103px 10px 110px 10px;
+    padding: 103px 10px 105px 10px;
     position: relative;
     flex-wrap: wrap
 }
@@ -242,7 +242,7 @@ h1 >span {
 .products_header {
     width: 100%;
     text-align: center;
-    padding-left: 18px;
+    padding-left: 35px;
     margin-bottom: 76px;
     box-sizing: border-box;
 }
@@ -268,7 +268,7 @@ h1 >span {
 .products_links {
     width: 100%;
     text-align: center;
-    padding-left: 45px;
+    padding-left: 55px;
     margin-bottom: 57px;
     box-sizing: border-box;
 }
@@ -424,7 +424,7 @@ h1 >span {
 
 .subscribe {
     width: 100%;
-    min-height: 510px;
+    min-height: 514px;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     color: #fff;
@@ -513,7 +513,7 @@ h1 >span {
 .feed_contacts {
     width: 100%;
     position: relative;
-    margin-bottom: 107px; 
+    margin-bottom: 110px; 
 }
 
 .feed_contacts_into {
@@ -523,7 +523,7 @@ h1 >span {
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
-    min-height: 485px;
+    min-height: 481px;
     align-content: space-between;
     flex-wrap: wrap;
 }
@@ -533,7 +533,8 @@ h1 >span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 487px;
+    height: 481px;
+    box-sizing: border-box;
 }
 
 .feed > input:nth-of-type(-n+2) {
@@ -576,7 +577,7 @@ h1 >span {
     background-color: #313030;
     color: #fff ;
     width: 410px;
-    padding: 124px 40px 125px 80px;
+    padding: 122px 40px 121px 80px;
     box-sizing: border-box;
 }
 
@@ -612,7 +613,7 @@ h1 >span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 16px;
     max-width: 1249px;
     margin: 0 auto;
     height: 100%;
@@ -665,13 +666,6 @@ h1 >span {
     .team1 > p {
         margin: 1vw 0
     }
-
-    .team_team {
-        justify-content: ;
-    }
-
-
-       
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1210px) {
@@ -802,11 +796,11 @@ h1 >span {
         text-align: center;
     }
 
-        .contacts_header>p {
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .contacts_header>p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .section2_main {
         margin-right: 0;
@@ -847,8 +841,16 @@ h1 >span {
     }
 }
 
-@media (max-width: 605px) {
+@media screen and (max-width:605px) {
     .block {
-        zoom: 0.8
+        zoom: 0.8;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .intro-item p {
+        width: 90%;
     }
 }
