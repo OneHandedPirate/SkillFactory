@@ -857,8 +857,13 @@ h1 >span {
 }
 
 @media screen and (max-width:605px) {
+    .section2_blocks {
+        justify-content: center;
+    }
+    
     .block {
-        zoom: 0.8;
+        /* zoom: 0.8; */
+        width: 80vw;
     }
 
     h1 {
