@@ -537,7 +537,7 @@ h1 >span {
 }
 
 .feed {
-    width: 734px;
+    max-width: 734px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
