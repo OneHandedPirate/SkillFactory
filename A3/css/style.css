@@ -283,8 +283,16 @@ h1 >span {
     color: #000 
 }
 
-.products_links > a:hover {
+.products_links > a:nth-child(n+2):hover {
     color: #FF2D2D;
+}
+
+.products_links > a:first-child {
+    color: #FF2D2D
+}
+
+.products_links > a:first-child:hover {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
 .feature {
