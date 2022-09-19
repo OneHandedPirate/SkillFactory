@@ -919,4 +919,8 @@ h1 >span {
     .intro-item p {
         width: 90%;
     }
+
+    .feed > input:nth-of-type(-n+2) {
+        width: 45%;
+    }
 }
