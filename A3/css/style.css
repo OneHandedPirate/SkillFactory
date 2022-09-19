@@ -546,7 +546,7 @@ h1 >span {
 }
 
 .feed > input:nth-of-type(-n+2) {
-    width: 43%;
+    width: 47%;
     height: 71px;
 }
 
@@ -912,11 +912,14 @@ h1 >span {
     }
     
     .block {
-        /* zoom: 0.8; */
         width: 80vw;
     }
 
     .intro-item p {
         width: 90%;
+    }
+
+    .feed>input:nth-of-type(-n+2) {
+        width: 43%;
     }
 }
