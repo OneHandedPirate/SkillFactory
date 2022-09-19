@@ -468,7 +468,7 @@ h1 >span {
 }
 
 .subscription input::placeholder {
-    text-align: center;
+    padding-left: 20px;
 }
 
 .subscription a {
@@ -563,9 +563,8 @@ h1 >span {
 }
 
 .feed>input::placeholder {
-    text-align: center;
+    padding-left: 20px;
 }
-
 
 .feed_button {
     width: 100%;
@@ -897,14 +896,15 @@ h1 >span {
     
         .team_other {
             position: absolute;
-            width: 96vw;
+            width: 94vw;
             left: 0;
+            right: 0;
             bottom: 0;
             justify-content: space-between;
         }
     
         .team_other>div {
-            width: 21vw;
+            width: 23%;
             height: auto;
         }
 }
