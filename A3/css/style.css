@@ -533,7 +533,7 @@ h1 >span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 481px;
+    min-height: 481px;
     box-sizing: border-box;
 }
 
@@ -866,6 +866,10 @@ h1 >span {
 }
 
 @media screen and (max-width:605px) {
+    .header {
+        flex-wrap: wrap;
+    }
+    
     .intro-item {
         width: 95%;
     }
@@ -880,11 +884,6 @@ h1 >span {
     
     .team_header > p {
         width: 100%;
-    }
-
-    .header > a {
-        padding-left: 10px;
-        padding-right: 10px;
     }
     
     .section2_blocks {
