@@ -830,6 +830,14 @@ h1 >span {
         margin-bottom: 2vw;
     }
 
+    .subscription > a {
+        margin-left: 0;
+    }
+
+    .subscribe {
+        min-height: 630px;
+    }
+    
     /* Уменьшаем отступы между секциями */
     .headerintrobgcolor {
         padding-top: 0;
@@ -874,11 +882,11 @@ h1 >span {
         width: 100%;
     }
 
-    header > a {
+    .header > a {
         padding-left: 10px;
         padding-right: 10px;
     }
-
+    
     .section2_blocks {
         justify-content: center;
     }
