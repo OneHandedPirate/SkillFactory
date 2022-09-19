@@ -638,6 +638,10 @@ h1 >span {
 }
 
 @media screen and (max-width: 1269px) {
+    .headerintrobgcolor {
+        padding-top: 0;
+    }
+    
     .feature {
         min-height: auto;
     }
@@ -741,6 +745,10 @@ h1 >span {
     .intro {
         text-align: center;
         justify-content: center;
+    }
+
+    .intro-item > p {
+        display: inline-block;
     }
 
     .intro_img {
@@ -853,9 +861,7 @@ h1 >span {
     }
     
     /* Уменьшаем отступы между секциями */
-    .headerintrobgcolor {
-        padding-top: 0;
-    }
+    
     
     .section2 {
         padding-top: 50px;
