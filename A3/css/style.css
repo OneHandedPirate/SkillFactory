@@ -730,6 +730,7 @@ h1 >span {
         margin: 0 auto;
     }
 
+    
     .intro_img {
         width: 100%;
         height: auto;
@@ -857,6 +858,27 @@ h1 >span {
 }
 
 @media screen and (max-width:605px) {
+    .intro-item {
+        width: 95%;
+    }
+
+    .intro-item h1 {
+        font-size: 10vw;
+    }
+
+    .team_header {
+        width: 95%;
+    }
+    
+    .team_header > p {
+        width: 100%;
+    }
+
+    header > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .section2_blocks {
         justify-content: center;
     }
