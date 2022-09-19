@@ -793,6 +793,8 @@ h1 >span {
     .feed_contacts_into {
         justify-content: center;
     }
+
+    
 }
 
 @media screen and (max-width: 780px) {
@@ -875,6 +877,30 @@ h1 >span {
     .subscribe {
         margin-bottom: 50px;
     }
+
+        /* Эксперимент */
+    
+        .team_team {
+            position: relative;
+            min-height: 455px;
+        }
+    
+        .CEO {
+            align-self: start;
+        }
+    
+        .team_other {
+            position: absolute;
+            width: 98vw;
+            left: 0;
+            bottom: 0;
+            justify-content: space-between;
+        }
+    
+        .team_other>div {
+            width: 22vw;
+            height: auto;
+        }
 }
 
 @media screen and (max-width:605px) {
@@ -921,5 +947,23 @@ h1 >span {
 
     .feed>input:nth-of-type(-n+2) {
         width: 43%;
+    }
+
+    /* Эксперимент */
+    .team1 {
+         width: 50%;
+    }
+
+    .CEO {
+        width: 45vw;
+        height: 64vw;
+    }
+
+    .team_team {
+        min-height: 530px;
+    }
+
+    .team {
+        margin-bottom: 50px;
     }
 }
