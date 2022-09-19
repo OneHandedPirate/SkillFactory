@@ -891,14 +891,14 @@ h1 >span {
     
         .team_other {
             position: absolute;
-            width: 98vw;
+            width: 96vw;
             left: 0;
             bottom: 0;
             justify-content: space-between;
         }
     
         .team_other>div {
-            width: 22vw;
+            width: 21vw;
             height: auto;
         }
 }
