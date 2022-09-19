@@ -891,7 +891,7 @@ h1 >span {
     }
 
     .intro-item h1 {
-        font-size: 8vw;
+        font-size: 10vw;
         line-height: normal;
     }
 
@@ -914,10 +914,6 @@ h1 >span {
     .block {
         /* zoom: 0.8; */
         width: 80vw;
-    }
-
-    h1 {
-        font-size: 3em;
     }
 
     .intro-item p {
