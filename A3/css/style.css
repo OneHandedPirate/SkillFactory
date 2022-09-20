@@ -541,12 +541,13 @@ h1 >span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-between;
     min-height: 481px;
     box-sizing: border-box;
 }
 
 .feed > input:nth-of-type(-n+2) {
-    width: 47%;
+    width: 46%;
     height: 71px;
 }
 
@@ -556,7 +557,7 @@ h1 >span {
 }
 
 .feed > input {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.1);
     border-style: none;
     font-size: 20px;
@@ -593,6 +594,7 @@ h1 >span {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 24px;
+    letter-spacing: 1px;
 }
 
 .contacts > p {
