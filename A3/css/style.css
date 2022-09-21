@@ -465,30 +465,32 @@ h1 >span {
     border-radius: 10px;
     box-sizing: border-box;
     font-size: 20px;
+    padding-left: 30px;
+    font-family: OpenSans, Helvetica, Arial, sans-serif;
 }
 
-.subscription input::placeholder {
-    padding-left: 20px;
-}
-
-.subscription a {
+.subscription button {
     text-decoration: none;
     box-sizing: border-box;
     color: #fff;
+    height: 82px;
     background-color: #FF2D2D;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
     margin-left: 15px;
-    padding: 26px 60px 30px 60px;
+    padding: 26px 60px 30px 62px;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
 }
 
-.subscription a:hover {
+.subscription button:hover {
     box-shadow: 0 0 10px rgba(201, 201, 201, 0.7);
     transition-duration: 0.3s;
 }
 
-.subscription a:active {
+.subscription button:active {
     text-shadow: 0 0 10px rgb(0, 0, 0);;
 }
 
@@ -549,11 +551,17 @@ h1 >span {
 .feed > input:nth-of-type(-n+2) {
     width: 46%;
     height: 71px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-family: OpenSans, Helvetica, Arial, sans-serif;
 }
 
 .feed > input:last-of-type {
     width: 100%;
     height: 252px;
+    box-sizing: border-box;
+    padding: 35px 30px 200px;
+    font-family: OpenSans, Helvetica, Arial, sans-serif;
 }
 
 .feed > input {
@@ -561,10 +569,6 @@ h1 >span {
     background-color: rgba(0, 0, 0, 0.1);
     border-style: none;
     font-size: 20px;
-}
-
-.feed>input::placeholder {
-    padding-left: 20px;
 }
 
 .feed_button {
@@ -576,9 +580,10 @@ h1 >span {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding-top: 25px;
     height: 72px;
     align-self: end;
+    border: none;
+    cursor: pointer;
 }
 
 .contacts {
@@ -853,7 +858,7 @@ h1 >span {
         margin-bottom: 2vw;
     }
 
-    .subscription > a {
+    .subscription > button {
         margin-left: 0;
     }
 
