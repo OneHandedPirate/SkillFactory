@@ -280,7 +280,8 @@ h1 >span {
     font-weight: 600;
     position: relative;
     right: -6px;
-    color: #000 
+    color: #000;
+    text-transform:uppercase; 
 }
 
 .products_links > a:nth-child(n+2):hover {
@@ -483,6 +484,7 @@ h1 >span {
     border: none;
     vertical-align: top;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .subscription button:hover {
