@@ -8,9 +8,9 @@ def win_cond(f, t):
                 f[0][0] == f[1][1] == f[2][2] == t[-2] or \
                 f[2][0] == f[1][1] == f[0][2] == t[-2]:
             os.system('cls')
-            print(f'Победили {t[-2].upper()}!')
+            print(f'Победил игрок {t[-2].upper()}!')
             return True
-    if not '-' in f[0] and not '-' in f[1] and not '-' in f[2]:
+    if len(t) == 3:
         os.system('cls')
         print(f'Победила дружба!')
         return True
