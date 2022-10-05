@@ -16,11 +16,11 @@
 #
 # @decorator_time
 # def pow_2():
-#     return 10000000 ** 2
+#     return 10000000 ** CondLogicalCycles
 #
 # @decorator_time
 # def in_build_pow():
-#     return pow(10000000, 2)
+#     return pow(10000000, CondLogicalCycles)
 #
 # pow_2()
 # in_build_pow()
