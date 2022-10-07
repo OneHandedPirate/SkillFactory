@@ -42,7 +42,6 @@ def game():
                 pf[int(trn[0])][int(trn[1])] = current_fig
                 turns.pop()
             else:
-                os.system('cls')
                 print(f'Хорошая попытка, но нет. Вы дисквалифицированы!'
                       f'Победил игрок {turns[-2].upper()}\n')
                 break
