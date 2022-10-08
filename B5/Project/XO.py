@@ -38,7 +38,7 @@ def game():
                     f'ряд колонка):\n').split()
         os.system('cls')
         try:
-            if pf[int(trn[0])][int(trn[1])] == '-':
+            if pf[int(trn[0])][int(trn[1])] == '-' and trn[0] >= 0 and trn[1] >= 0:
                 pf[int(trn[0])][int(trn[1])] = current_fig
                 turns.pop()
             else:
