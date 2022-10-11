@@ -38,9 +38,11 @@ def game():
                     f'ряд колонка):\n').split()
         os.system('cls')
         try:
-            if pf[int(trn[0])][int(trn[1])] == '-' and trn[0] >= 0 and trn[1] >= 0:
+            if pf[int(trn[0])][int(trn[1])] == '-' and int(trn[0]) >= 0 and int(trn[1]) >= 0:
                 pf[int(trn[0])][int(trn[1])] = current_fig
                 turns.pop()
+            elif int(trn[0]) < 0 or int(trn[1]) < 0:
+                print('Координаты должны быть положительными')
             else:
                 print(f'Хорошая попытка, но нет. Вы дисквалифицированы!'
                       f'Победил игрок {turns[-2].upper()}\n')
