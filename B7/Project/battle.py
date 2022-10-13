@@ -193,12 +193,10 @@ class User(Player):
 
 
 class Game:
-    def __init__(self, fleet=None):
+    def __init__(self):
         self.welcome()
         self.size = self.set_size()
-        if fleet is None:
-            fleet = self.set_fleet()
-        self.fleet = fleet
+        self.fleet = self.set_fleet()
         users_b = self.random_board()  # генерирует доску игрока со случайной расстановкой кораблей
         bots_b = self.random_board()  # генерирует доску бота со случайной расстановкой кораблей
         bots_b.hidden = True  # скрывает от игрока расположение кораблей бота
