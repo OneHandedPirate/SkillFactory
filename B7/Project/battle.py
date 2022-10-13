@@ -62,7 +62,7 @@ class Ship:
 
 
 class Board:
-    def __init__(self, hidden=False, size=6):
+    def __init__(self, size, hidden=False, ):
         self.size = size  # размер доски
         self.hidden = hidden  # переключатель видимости доски
 
@@ -238,7 +238,8 @@ class Game:
     def set_size(self):  # Метод для выбора размера доски
         s = input('Введите число от 5 до 9 в качестве размера игрового поля.\n'
                   'В случае некорректного ввода или '
-                  'нажатия Enter размер поля будет установлен на 6.\n')
+                  'нажатия Enter без ввода значения '
+                  'размер поля будет установлен на 6.\n')
         if s.isdigit() and 5 <= int(s) <= 9:
             return int(s)
         else:
