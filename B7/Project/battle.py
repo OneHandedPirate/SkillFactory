@@ -289,10 +289,7 @@ class Game:
                 break
             turn += 1
 
-    def start(self):
-        self.loop()
-
 
 if __name__ == '__main__':
     g = Game()
-    g.start()
+    g.loop()
