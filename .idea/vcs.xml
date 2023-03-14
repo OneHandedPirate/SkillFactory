@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/B10/Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C4/Slider-JS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C5/moduleC5_homework/moduleC5_homework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C6/moduleC6_homework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C7/moduleC7_homework" vcs="Git" />
   </component>
 </project>
